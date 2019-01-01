@@ -1,9 +1,8 @@
+// errores
 #include <string.h>
-// Librerias para la gestion de errores
 #include <stdio.h>
 #include <errno.h>
-// Librerias para el setuid
-#include <sys/types.h>
+// sysconf
 #include <unistd.h>
 
 int main(){

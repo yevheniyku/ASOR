@@ -1,11 +1,10 @@
+// uname
 #include <sys/utsname.h>
+// errores
 #include <string.h>
-// Librerias para la gestion de errores
 #include <stdio.h>
 #include <errno.h>
-// Librerias para el setuid
-#include <sys/types.h>
-#include <unistd.h>
+
 
 int main(){
   struct utsname buf;
