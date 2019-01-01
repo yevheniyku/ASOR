@@ -1,0 +1,8 @@
+uname obtiene el nombre y el resto de la información sobre
+el kernel.
+
+uname() devuelve la información sobre el sistema en una estructura
+utsname.
+
+En caso de éxito devuelve un 0, y si se ha producido un error
+devuelve un -1. 

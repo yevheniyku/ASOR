@@ -1,0 +1,3 @@
+El comando id muestra el ID real, ID efectivo y el ID del grupo,
+para un usuario en concreto. Si no se especifica el usuario,
+se consultan los IDs del user actual.
