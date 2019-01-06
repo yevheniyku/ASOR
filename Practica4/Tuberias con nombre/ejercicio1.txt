@@ -1,0 +1,8 @@
+"mkfifo pepe"
+"stat pepe" -> lo identifica como un archivo FIFO
+
+para comprobar el funcionamiento de un fichero FIFO:
+1) abrimos dos terminales
+2) en las dos ponemos "tee pepe"
+3) vemos que si escribimos un mensaje en una consola, se replica
+en la otra tambien.  
