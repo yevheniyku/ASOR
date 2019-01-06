@@ -1,0 +1,10 @@
+El comando ls lista el contenido de un directorio.
+-a: muestra también los archivos ocultos, que empiezan con .
+-l: utiliza un formato de listado más largo
+-d: lista solo directorios, sin mostrar el contenido de los directorios
+-h: usando la opción -l, permite ver los tamaños de manera más fácil utilizando K, M, G
+-i: muestra el inodo de cada archivo
+-R: lista los subdirectorios de manera recursiva
+-1: lista un archivo por línea
+-F:
+--color: colorea la salida

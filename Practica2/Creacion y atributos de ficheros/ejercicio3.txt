@@ -1,0 +1,8 @@
+"chmod 540 mi_echo.sh": lectura y ejecución para el usuario,
+lectura para el grupo, y nada para otros.
+
+"chmod u+rx,g+r-wx,o-wxr": lo mismo que en el caso anterior.
+
+Para fijar los permisos rw-r--r-x:
+Octal: "chmod 645 mi_echo.sh"
+Simbólica: "chmod u+rw-x,g+r-wx,o+rx-w mi_echo.sh"

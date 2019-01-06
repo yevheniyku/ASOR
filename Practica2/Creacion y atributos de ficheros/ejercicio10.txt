@@ -1,0 +1,7 @@
+touch pepe
+ln pepe pepe_hard
+ln -s pepe pepe_sym
+rm pepe
+--------------------------------------------------
+cat pepe_hard: todo ok
+cat pepe_sym: no existe el fichero o el directorio

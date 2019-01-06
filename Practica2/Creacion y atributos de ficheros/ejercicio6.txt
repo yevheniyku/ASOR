@@ -1,0 +1,6 @@
+Cuando se crea un fichero, los permisos por defecto se derivan de la máscara
+de usuario (umask). El comando umask permite consultar y modificar esa máscara.
+
+umask 0027
+touch pepe
+ls -l: rw-r------

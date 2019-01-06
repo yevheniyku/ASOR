@@ -1,0 +1,2 @@
+El comando stat muestra  el estatus y detalles sobre un fichero
+o un sistema de ficheros.

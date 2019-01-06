@@ -1,0 +1,5 @@
+mkdir dir
+chmod -x dir
+cd dir
+
+"PERMISO DENEGADO"
