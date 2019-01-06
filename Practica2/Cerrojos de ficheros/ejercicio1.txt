@@ -1,0 +1,1 @@
+/proc/locks contiene los cerrojos activos en el sistema
